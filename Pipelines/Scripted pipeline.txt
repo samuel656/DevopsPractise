@@ -1,0 +1,19 @@
+node
+{
+    stage("build")
+    {
+        echo "Build Successful"
+    }
+    stage("deploy")
+    {
+        echo "Deploy Successful"
+    }
+    stage("test")
+    {
+        echo "Test Successful"
+    }
+    stage("release")
+    {
+        echo "Release Successful"
+    }
+}
